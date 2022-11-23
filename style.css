@@ -111,8 +111,10 @@ h1 {
 .wel {
   color: blue;
   text-align: center;
-  position: relative;
-  padding: 4em;
   background-position-x: center;
   font-family: "open_sansregular";
+  font-size: 4.8em;
+}
+.conteiner-text {
+  padding-top: 4em;
 }
