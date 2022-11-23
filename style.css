@@ -115,6 +115,18 @@ h1 {
   font-family: "open_sansregular";
   font-size: 4.8em;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  animation: pulse 5s infinite;
+}
+@keyframes pulse {
+  0% {
+    color: darkblue;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    color: blue;
+  }
 }
 .conteiner-text {
   padding-top: 4em;
