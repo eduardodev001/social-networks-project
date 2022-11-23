@@ -111,5 +111,8 @@ h1 {
 .wel {
   color: blue;
   text-align: center;
-  padding-top: 13%;
+  position: relative;
+  padding: 4em;
+  background-position-x: center;
+  font-family: "open_sansregular";
 }
